@@ -8,15 +8,16 @@ import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 
 const App = () => {
+  
   return (
     <div className="grid grid-rows-4 gap-40">
       <Header />
-      <div className="row-span-2 grid grid-cols-3">
+      <div className="grid xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
         <ContactInfo />
         <Image />
         <AboutMe />
       </div>
-      <div className="row-span-3 grid grid-cols-2">
+      <div className="grid xl:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
         <Skills />
         <Projects />
       </div>
