@@ -6,15 +6,15 @@ import Header from "./components/header";
 import Image from "./components/Image";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-
+const img = "../src/assets/ProfessionalPic.jpeg"
 const App = () => {
   
   return (
-    <div className="grid grid-rows-4 gap-40">
+    <div className="bg-black text-white grid grid-rows-4 gap-4 px-10">
       <Header />
-      <div className="grid xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1">
+      <div className="grid xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 border-b-4 border-t-4 border-red-800 p-2">
         <ContactInfo />
-        <Image />
+        <Image imgScr={img}/>
         <AboutMe />
       </div>
       <div className="grid xl:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">

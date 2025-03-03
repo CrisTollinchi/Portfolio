@@ -1,9 +1,10 @@
 
 
-const Image = () =>{
+const Image = ({imgScr}) =>{
     return(
         <div>
-            <h1>Image</h1>
+            <h2>Image</h2>
+           {/* <img src={imgScr} alt="Personal Pic" /> */}
         </div>
     )
 };
