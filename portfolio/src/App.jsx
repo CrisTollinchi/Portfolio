@@ -7,25 +7,24 @@ import Image from "./components/Image";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 const img = "../src/assets/ProfessionalPic.jpeg"
+
 const App = () => {
-  
   return (
-    <div className="bg-black text-white grid grid-rows-4 gap-4 px-10">
+    <div className="w-full max-w-[100vw] overflow-x-hidden bg-black text-white grid grid-rows-4 px-5">
       <Header />
-      <div className="grid xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 border-b-4 border-t-4 border-red-800 p-2">
+      <div className="w-full grid xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 border-b-4 border-t-4 border-red-800 p-2">
         <ContactInfo />
-        <Image imgScr={img}/>
+        <Image imgScr={img} />
         <AboutMe />
       </div>
-      <div className="grid xl:grid-cols-2 md:grid-cols-2 sm:grid-cols-1">
+      <div className="w-full grid xl:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 p-2">
         <Skills />
         <Projects />
       </div>
-      <div>
+      <div className="w-full border-t-4 border-red-800 p-2">
         <ContactMe />
       </div>
     </div>
   );
 };
-
 export default App;

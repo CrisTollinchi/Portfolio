@@ -3,7 +3,7 @@ import { FaLinkedin, FaGithub, FaPhone, FaMailBulk } from "react-icons/fa";
 
 const ContactInfo = () => {
   return (
-    <div className="border-r-4 border-red-800 p-2">
+    <div className="xl:border-r-4 xl:border-red-800 md:border-r-4 md:border-red-800 p-2 sm:border-b-red-800 ">
       <Title titleContent="Contact Info" />
       {/* General info section */}
       <div className="flex-col items-center p-1">
