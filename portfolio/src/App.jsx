@@ -10,7 +10,7 @@ const img = "../src/assets/ProfessionalPic.jpeg"
 
 const App = () => {
   return (
-    <div className="w-full max-w-[100vw] overflow-x-hidden bg-black text-white grid grid-rows-4 px-5">
+    <div className="w-full max-w-[100vw] overflow-x-hidden bg-black text-white grid p-2">
       <Header />
       <div className="w-full grid xl:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 border-b-4 border-t-4 border-red-800 p-2">
         <ContactInfo />
