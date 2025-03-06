@@ -1,5 +1,5 @@
 import Title from "./Title";
-import { FaLinkedin, FaGithub, FaPhone, FaMailBulk } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaMailBulk } from "react-icons/fa";
 
 const ContactInfo = () => {
   return (
@@ -8,22 +8,17 @@ const ContactInfo = () => {
       {/* General info section */}
       <div className="flex-col items-center p-1">
         <div className="flex items-center gap-3 my-2">
-          <FaPhone className="text-2xl" />
-          <div>
-            <p>Mobile Phone</p>
-            <p>(904)-935-9617</p>
-          </div>
-        </div>
-        <div className="flex items-center gap-3 my-2">
           <FaMailBulk className="text-2xl" />
           <div>
             <p>Email</p>
-            <p>cristollinchi@gmail.com</p>
+            <p className="hover:text-red-800 ">
+              <a href="mailto:cristollinchi@gmail.com">cristollinchi@gmail.com</a>
+            </p>
           </div>
         </div>
       </div>
       {/* Links section */}
-      <div className="flex justify-evenly  my-2">
+      <div className="flex flex-col justify-evenly gap-2 my-2">
         <a href="https://github.com/CrisTollinchi">
           <FaGithub className="text-5xl hover:text-red-800 transition duration-300" />
         </a>
