@@ -1,10 +1,10 @@
+import Title from "./Title";
 
-
-const ContactMe = () =>{
-    return(
-        <div>
-<h1>Contact Me</h1>
-        </div>
-    )
-}
-export default ContactMe
+const ContactMe = () => {
+  return (
+    <div>
+      <Title titleContent="Contact Me" />
+    </div>
+  );
+};
+export default ContactMe;
