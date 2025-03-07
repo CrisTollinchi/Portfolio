@@ -2,7 +2,7 @@ import "./App.css";
 import AboutMe from "./components/AboutMe";
 import ContactInfo from "./components/ContactInfo";
 import ContactMe from "./components/ContactMe";
-import Header from "./components/header";
+import Header from "./components/Header";
 import Image from "./components/Image";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
@@ -21,7 +21,7 @@ const App = () => {
         <Skills />
         <Projects />
       </div>
-      <div className="w-full border-t-4 border-red-800 p-2">
+      <div className="w-full  border-t-4 border-red-800 p-2">
         <ContactMe />
       </div>
     </div>
